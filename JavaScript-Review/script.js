@@ -176,15 +176,53 @@ formElement.onsubmit = (e) => {
     }
     
 const searchButton = document.querySelector(".searchButton")
-searchButton.addEventListener("click", function (e) {
+searchButton.addEventListener("click", async function (e) {
     const searchBar = formElement.elements["searchInput"]
     const pokemonName = searchBar.value
 
     // Try/Catch
-    // Fetch
-        // 1. Async/Await
-        // 2. Callbck Functions
-        // 3. Chaining .then/.finally
+    try {
+        // Fetch
+            // 1. Async/Await
+        // async function getPokemon(nameOfPokemon) {
+        //     const pokemon = await fetch(`http://pokeapi.co/api/v2/pokemon/${nameOfPokemon}`)
+        //     // const pokemon = await fetch("http://pokeapi.co/api/v2/pokemon/" + nameOfPokemon)
+        //     return pokemon.json()
+        // }
+        // const pokemonData = await getPokemon(pokemonName)
+        // displayPokemon(pokemonData)
+        // debugger
+        // 2. Chaining .then/.finally
+        
+        console.log("Start of async call")
+        fetch(`http://pokeapi.co/api/v2/pokemon/${pokemonName}`)
+        .then(response => {
+            return response.json()
+        }).then(pokemonData => {
+            console.log(pokemonData)
+            displayPokemon(pokemonData)
+        }).catch(err => {
+            console.error(err)
+        })
+        console.log("I ran still!")
+        
+        
+        
+        
+        // 3. Callback Functions
+        // --------- Rendering Pokemon in HTML ----------
+        function displayPokemon(pokemonData) {
+            const h1 = document.querySelector(".pokemon-name")
+            h1.innerText = pokemonData.name
+            const pokeImage = pokemonData.sprites.front_default
+            const img = document.querySelector(".pokemon-image")
+            img.setAttribute("src", pokeImage)
+        }
+        
+    } catch (err) {
+        console.error(err)
+        throw new Error
+    }   
     
 })
 
