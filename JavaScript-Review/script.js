@@ -120,33 +120,33 @@ console.log('I am running!')
 //     }
 // }
 
-class Motorcycle extends Car () {
+// class Motorcycle extends Car () {
 
-}
+// }
 
-function Car(type) {
-    this.type = type
-    this.turnEngineOn = function () {
-        this.engineIsOn = true
-        console.log("Engine has been turned on!")
-    }
-}
+// function Car(type) {
+//     this.type = type
+//     this.turnEngineOn = function () {
+//         this.engineIsOn = true
+//         console.log("Engine has been turned on!")
+//     }
+// }
 
-let myCar = new Car("Ferrari")
-myCar.turnEngineOn()
+// let myCar = new Car("Ferrari")
+// myCar.turnEngineOn()
 
 
-let car = {
-    type: "ferrari",
-    price: "$999999",
-    client: "person",
-    color: 'red',
-    turnEngineOn: function() {
+// let car = {
+//     type: "ferrari",
+//     price: "$999999",
+//     client: "person",
+//     color: 'red',
+//     turnEngineOn: function() {
 
-    }
-}
+//     }
+// }
 
-let arr =[1,2, [], {}, () => {}]
+// let arr =[1,2, [], {}, () => {}]
 
 
 
@@ -156,3 +156,35 @@ let arr =[1,2, [], {}, () => {}]
 // Error Handling (try/catch)
 
 // DOM
+
+
+// AAU, I want to search for a pokemon by its name and see a picture of that pokemon:
+    // 1. Update the HTML with a form (text input)
+    // 2. Attach a click eventListener to the form submission
+    // 3. Attach a callback function to the eventListener
+    // 4. Store the user search text in a variable
+    // 5. Utilize the user search text in our API query
+    // 6. Once API data has returned, we will display the data in the HTML dynamically using DOM 
+
+// Store the FORM HTML element in a variable
+
+
+const formElement = document.querySelector(".pokemon-search-bar")
+formElement.onsubmit = (e) => {
+        e.preventDefault();
+        // console.log("Form submitted!")
+    }
+    
+const searchButton = document.querySelector(".searchButton")
+searchButton.addEventListener("click", function (e) {
+    const searchBar = formElement.elements["searchInput"]
+    const pokemonName = searchBar.value
+
+    // Try/Catch
+    // Fetch
+        // 1. Async/Await
+        // 2. Callbck Functions
+        // 3. Chaining .then/.finally
+    
+})
+
