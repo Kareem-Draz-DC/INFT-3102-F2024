@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+title: Experience
+pagination:
+    data: experience.expList
+    size: 5
+permalink: "experience/page-{{ pagination.pageNumber }}/index.html"
+---
+
+<h1>My Experience</h1>
+
+<ul>
+    {%- for item in pagination.items %}
+    <li>
+        <img src="{{ item.logo }}" width="350" height="100" />
+        <h2>{{ item.jobTitle }}</h2>
+        <h2>{{ item.companyName }}</h2>
+        <p>{{ item.yearsSpent }} years</p>
+        <p>{{ item.responsibilities }}</p>
+    </li>
+    {% endfor %}
+</ul>
+
+{% if pagination.pageNumber > 0 %}
+    <a href="{{ pagination.href.previous }}">Previous</a>
+{% endif %}
+
+{% if pagination.pageNumber < pagination.pages.length - 1 %}
+    <a href="{{ pagination.href.next }}">Next</a>
+{% endif %}

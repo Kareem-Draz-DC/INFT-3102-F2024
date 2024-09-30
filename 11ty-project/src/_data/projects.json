@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Project 1",
+        "description": "My First Project",
+        "link": "http://linktoyourproject.dev/project1"
+    },
+    {
+        "title": "Project 2",
+        "description": "My Second Project",
+        "link": "http://linktoyourproject.dev/project2"
+    }
+]
