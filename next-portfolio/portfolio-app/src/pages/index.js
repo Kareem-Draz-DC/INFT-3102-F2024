@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <>
-      <h1>GhostCMS Sample</h1>
+      <h1>Strapi Sample</h1>
       <h1>{name}</h1>
     </>
   );
