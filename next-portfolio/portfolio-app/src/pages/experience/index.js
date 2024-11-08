@@ -6,7 +6,7 @@ export async function getStaticProps() {
         props: { experienceList }
     }
 }
-export default function experience({ experienceList }) {
+export default function Experience({ experienceList }) {
     return (
         <>
             <div>
