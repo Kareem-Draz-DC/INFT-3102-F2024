@@ -1,0 +1,189 @@
+{
+    "data": [
+    {
+    "id": 2,
+    "documentId": "i8aqdyqt98hpi1s1xiynpma9",
+    "company": "Microsoft",
+    "role": "Software Engineer",
+    "isCurrentlyEmployed": true,
+    "duration": 3,
+    "description": "Worked on cloud-based applications and serverless architecture with super smart developers",
+    "createdAt": "2024-11-04T22:34:33.334Z",
+    "updatedAt": "2024-11-04T22:34:33.334Z",
+    "publishedAt": "2024-11-04T22:34:33.351Z",
+    "companyLogo": {
+    "id": 1,
+    "documentId": "pdd73z0euw5dmyxbymvoquye",
+    "name": "1200px-Microsoft_logo.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 1200,
+    "height": 1200,
+    "formats": {
+    "large": {
+    "ext": ".jpg",
+    "url": "/uploads/large_1200px_Microsoft_logo_c8e51d27ec.jpg",
+    "hash": "large_1200px_Microsoft_logo_c8e51d27ec",
+    "mime": "image/jpeg",
+    "name": "large_1200px-Microsoft_logo.jpg",
+    "path": null,
+    "size": 18.93,
+    "width": 1000,
+    "height": 1000,
+    "sizeInBytes": 18929
+    },
+    "small": {
+    "ext": ".jpg",
+    "url": "/uploads/small_1200px_Microsoft_logo_c8e51d27ec.jpg",
+    "hash": "small_1200px_Microsoft_logo_c8e51d27ec",
+    "mime": "image/jpeg",
+    "name": "small_1200px-Microsoft_logo.jpg",
+    "path": null,
+    "size": 7.78,
+    "width": 500,
+    "height": 500,
+    "sizeInBytes": 7784
+    },
+    "medium": {
+    "ext": ".jpg",
+    "url": "/uploads/medium_1200px_Microsoft_logo_c8e51d27ec.jpg",
+    "hash": "medium_1200px_Microsoft_logo_c8e51d27ec",
+    "mime": "image/jpeg",
+    "name": "medium_1200px-Microsoft_logo.jpg",
+    "path": null,
+    "size": 11.87,
+    "width": 750,
+    "height": 750,
+    "sizeInBytes": 11872
+    },
+    "thumbnail": {
+    "ext": ".jpg",
+    "url": "/uploads/thumbnail_1200px_Microsoft_logo_c8e51d27ec.jpg",
+    "hash": "thumbnail_1200px_Microsoft_logo_c8e51d27ec",
+    "mime": "image/jpeg",
+    "name": "thumbnail_1200px-Microsoft_logo.jpg",
+    "path": null,
+    "size": 2.28,
+    "width": 156,
+    "height": 156,
+    "sizeInBytes": 2283
+    }
+    },
+    "hash": "1200px_Microsoft_logo_c8e51d27ec",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 21.82,
+    "url": "/uploads/1200px_Microsoft_logo_c8e51d27ec.jpg",
+    "previewUrl": null,
+    "provider": "local",
+    "provider_metadata": null,
+    "createdAt": "2024-11-04T22:34:22.205Z",
+    "updatedAt": "2024-11-04T22:34:22.205Z",
+    "publishedAt": "2024-11-04T22:34:22.206Z"
+    }
+    },
+    {
+    "id": 4,
+    "documentId": "mq487zzhah86gr87tkm1x9gx",
+    "company": "Google",
+    "role": "Technical Sales Manager",
+    "isCurrentlyEmployed": null,
+    "duration": 2,
+    "description": "Sold Google Cloud services infrastructure to large clients",
+    "createdAt": "2024-11-04T22:41:01.666Z",
+    "updatedAt": "2024-11-04T22:41:01.666Z",
+    "publishedAt": "2024-11-04T22:41:01.681Z",
+    "companyLogo": {
+    "id": 2,
+    "documentId": "xl24vwp9jurn286ikwvtfj3z",
+    "name": "google2.0.0.1441125613.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 1400,
+    "height": 1050,
+    "formats": {
+    "large": {
+    "ext": ".jpg",
+    "url": "/uploads/large_google2_0_0_1441125613_1a73c8a4bf.jpg",
+    "hash": "large_google2_0_0_1441125613_1a73c8a4bf",
+    "mime": "image/jpeg",
+    "name": "large_google2.0.0.1441125613.jpg",
+    "path": null,
+    "size": 26.82,
+    "width": 1000,
+    "height": 750,
+    "sizeInBytes": 26824
+    },
+    "small": {
+    "ext": ".jpg",
+    "url": "/uploads/small_google2_0_0_1441125613_1a73c8a4bf.jpg",
+    "hash": "small_google2_0_0_1441125613_1a73c8a4bf",
+    "mime": "image/jpeg",
+    "name": "small_google2.0.0.1441125613.jpg",
+    "path": null,
+    "size": 11.98,
+    "width": 500,
+    "height": 375,
+    "sizeInBytes": 11982
+    },
+    "medium": {
+    "ext": ".jpg",
+    "url": "/uploads/medium_google2_0_0_1441125613_1a73c8a4bf.jpg",
+    "hash": "medium_google2_0_0_1441125613_1a73c8a4bf",
+    "mime": "image/jpeg",
+    "name": "medium_google2.0.0.1441125613.jpg",
+    "path": null,
+    "size": 19.49,
+    "width": 750,
+    "height": 563,
+    "sizeInBytes": 19492
+    },
+    "thumbnail": {
+    "ext": ".jpg",
+    "url": "/uploads/thumbnail_google2_0_0_1441125613_1a73c8a4bf.jpg",
+    "hash": "thumbnail_google2_0_0_1441125613_1a73c8a4bf",
+    "mime": "image/jpeg",
+    "name": "thumbnail_google2.0.0.1441125613.jpg",
+    "path": null,
+    "size": 4.13,
+    "width": 208,
+    "height": 156,
+    "sizeInBytes": 4127
+    }
+    },
+    "hash": "google2_0_0_1441125613_1a73c8a4bf",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 39.53,
+    "url": "/uploads/google2_0_0_1441125613_1a73c8a4bf.jpg",
+    "previewUrl": null,
+    "provider": "local",
+    "provider_metadata": null,
+    "createdAt": "2024-11-04T22:40:56.804Z",
+    "updatedAt": "2024-11-04T22:40:56.804Z",
+    "publishedAt": "2024-11-04T22:40:56.805Z"
+    }
+    },
+    {
+    "id": 6,
+    "documentId": "nvd4x7shfru2sxbsaoigdyi8",
+    "company": "Netflix",
+    "role": "Senior Systems Principal Staff Lead Engineer",
+    "isCurrentlyEmployed": null,
+    "duration": 5,
+    "description": "Led a team of 30+ Engineers on large scale projects",
+    "createdAt": "2024-11-04T22:41:53.556Z",
+    "updatedAt": "2024-11-04T22:41:53.556Z",
+    "publishedAt": "2024-11-04T22:41:53.609Z",
+    "companyLogo": null
+    }
+    ],
+    "meta": {
+    "pagination": {
+    "page": 1,
+    "pageSize": 25,
+    "pageCount": 1,
+    "total": 3
+    }
+    }
+    }
