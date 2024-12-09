@@ -12,8 +12,6 @@ export default function Experience({ experienceList }) {
     console.dir(experienceList)
     // console.log(experienceList[0].companyLogo.formats.thumbnail.url)
 
-
-
     return (
         <>
             <div>
